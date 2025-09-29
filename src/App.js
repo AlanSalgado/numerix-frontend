@@ -110,6 +110,7 @@ function App() {
             width={280}
             height={280}
             className="border-4 border-gray-500 rounded-lg cursor-crosshair w-full max-w-[280px] h-auto"
+            style={{ touchAction: "none" }}
             onMouseDown={startDrawing}
             onMouseUp={endDrawing}
             onMouseMove={draw}
